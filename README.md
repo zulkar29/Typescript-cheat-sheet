@@ -32,10 +32,11 @@ let student: object[]; //For store arry of object
 
 
 ## Custome Type
-
-type RoolType = "Admin" | "user"; \
-let UserRoll: RoolType; \
+```
+type RoolType = "Admin" | "user"; 
+let UserRoll: RoolType; 
 UserRoll = "Admin";
+```
 
 
 ## class and object emaple 
