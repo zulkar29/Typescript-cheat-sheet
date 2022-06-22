@@ -36,3 +36,24 @@ let student: object[]; //For store arry of object
 type RoolType = "Admin" | "user"; \
 let UserRoll: RoolType; \
 UserRoll = "Admin";
+
+
+## class and object emaple 
+```
+class Student{
+    name: string;
+    age: number;
+    constructor(userName:string, age:number) {
+        this.name = userName;
+        this.age = age;
+    }
+
+    studentDetails() {
+        console.log(`student name is ${this.name}, and age is ${this.age}`);
+    }
+};
+
+let studentOne = new Student("Zulkar Nayin", 16303045);
+studentOne.studentDetails();
+```
+
