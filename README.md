@@ -40,7 +40,7 @@ UserRoll = "Admin";
 ```
 
 
-## class and object emaple 
+## class and object example 
 ```
 class Student{
     name: string;
