@@ -11,3 +11,6 @@
 **Any =**: let bjit: any = "Software Company"; \
 **Array:** let studentList: any[] = ["zulkar", 463]; \
 **Unit Type =:** let studentList: (string | number)[] = ["zulkar", 463]; 
+
+### Tuple
+let arr: [string, number] =["zulkar Nayin", 16303045] \
