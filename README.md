@@ -72,10 +72,12 @@ let signleData = new university("Zulkar", 25,"CSE");
 ```
 
 ### TypeScript - Data Modifiers
-Private \
-public \
-Read only 
-
+```
+  public name: string; //All the public members can be accessed anywhere without any restrictions.
+ private accountNo: number; //The private access modifier ensures that class members are visible only
+                            to that class and are not accessible outside the containing class.
+  protected DBPASSWORD: any; //protected members can be accessed using their deriving classes only.
+```
 ## Abstraction
 Abstraction is a process of hiding the implementation details and showing only functionality to the user. \
 class declared with abstract keyword \
