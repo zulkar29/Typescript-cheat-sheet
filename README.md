@@ -13,8 +13,9 @@
 **Unit Type =:** let studentList: (string | number)[] = ["zulkar", 463]; 
 
 ### Tuple
+```
 let arr: [string, number] =["zulkar Nayin", 16303045] \
-
+```
 ## Enum
 Reference: https://www.typescriptlang.org/docs/handbook/enums.html#handbook-content \
 Type: \
@@ -25,12 +26,12 @@ example: enum RollType {STUDENT, ADMIN, TEACHER} \
         let WhichROll: RollType
 
 ## Object
+```
 let students: object; \
 let student: {name: string, id:number}; \
 let student: {name: string, id?:number}; //? sign for keep optional \
 let student: object[]; //For store arry of object 
-
-
+```
 ## Custome Type
 ```
 type RoolType = "Admin" | "user"; 
