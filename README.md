@@ -16,6 +16,6 @@
 let arr: [string, number] =["zulkar Nayin", 16303045] \
 
 ## Enum
-Reference: https://www.typescriptlang.org/docs/handbook/enums.html#handbook-content
+Reference: https://www.typescriptlang.org/docs/handbook/enums.html#handbook-content \
 example: enum RollType {STUDENT, ADMIN, TEACHER} \
         let WhichROll: RollType
