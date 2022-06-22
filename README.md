@@ -23,3 +23,8 @@ numeric \
 Heterogeneous \
 example: enum RollType {STUDENT, ADMIN, TEACHER} \
         let WhichROll: RollType
+
+## Object
+let students: object; \
+let student: {name: string, id:number}; \
+let student: object[]; //For store arry of object 
