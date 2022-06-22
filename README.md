@@ -74,7 +74,7 @@ let signleData = new university("Zulkar", 25,"CSE");
 ### TypeScript - Data Modifiers
 Private \
 public \
-Read only \
+Read only 
 
 ## Abstraction
 Abstraction is a process of hiding the implementation details and showing only functionality to the user. \
