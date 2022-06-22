@@ -70,3 +70,10 @@ class university extends Student {
 }
 let signleData = new university("Zulkar", 25,"CSE");
 ```
+## Abstraction
+Abstraction is a process of hiding the implementation details and showing only functionality to the user. \
+class declared with abstract keyword \
+object can not be created from abstract class \
+if a class extends abstract class; it must inherit all the abstract methods \
+
+
