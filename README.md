@@ -27,4 +27,5 @@ example: enum RollType {STUDENT, ADMIN, TEACHER} \
 ## Object
 let students: object; \
 let student: {name: string, id:number}; \
+let student: {name: string, id?:number}; //? sign for keep optional \
 let student: object[]; //For store arry of object 
