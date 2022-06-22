@@ -76,4 +76,9 @@ class declared with abstract keyword \
 object can not be created from abstract class \
 if a class extends abstract class; it must inherit all the abstract methods \
 
-
+### Generics 
+```
+function identity<Type>(arg: Type): Type {
+  return arg;
+}
+```
