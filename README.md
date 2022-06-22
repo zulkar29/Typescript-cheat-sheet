@@ -59,3 +59,14 @@ let studentOne = new Student("Zulkar Nayin", 16303045);
 studentOne.studentDetails();
 ```
 
+## Inheritance 
+```
+class university extends Student {
+  department: string;
+  constructor( name:string, age:number ,studentDepartment:string) {
+    super(name, age);
+    this.department = studentDepartment;
+  }
+}
+let signleData = new university("Zulkar", 25,"CSE");
+```
