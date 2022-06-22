@@ -1,10 +1,10 @@
 # Typescript-cheat-sheet
 
-## How to Run TypeScript 
+### How to Run TypeScript 
 **This one will convernt TS to JS:** tsc fileName.ts \
 **If we want to monitor TS change Realtime then:** tsc fileName.ts --watch \
 
-## Variable in TS
+### Variable in TS
 **String =:** let firstName: string = "Zulkar Nayin"; \
 **Number =:** let studetnId: number = 2314; \
 **Boolean =:** let isActive: boolean = true; \
@@ -16,7 +16,7 @@
 ```
 let arr: [string, number] =["zulkar Nayin", 16303045] \
 ```
-## Enum
+### Enum
 Reference: https://www.typescriptlang.org/docs/handbook/enums.html#handbook-content \
 Type: \
 string \
@@ -25,14 +25,14 @@ Heterogeneous \
 example: enum RollType {STUDENT, ADMIN, TEACHER} \
         let WhichROll: RollType
 
-## Object
+### Object
 ```
 let students: object; \
 let student: {name: string, id:number}; \
 let student: {name: string, id?:number}; //? sign for keep optional \
 let student: object[]; //For store arry of object 
 ```
-## Custome Type
+### Custome Type
 ```
 type RoolType = "Admin" | "user"; 
 let UserRoll: RoolType; 
@@ -40,7 +40,7 @@ UserRoll = "Admin";
 ```
 
 
-## class and object example 
+### class and object example 
 ```
 class Student{
     name: string;
@@ -59,7 +59,7 @@ let studentOne = new Student("Zulkar Nayin", 16303045);
 studentOne.studentDetails();
 ```
 
-## Inheritance 
+### Inheritance 
 ```
 class university extends Student {
   department: string;
@@ -70,6 +70,12 @@ class university extends Student {
 }
 let signleData = new university("Zulkar", 25,"CSE");
 ```
+
+### TypeScript - Data Modifiers
+Private \
+public \
+Read only \
+
 ## Abstraction
 Abstraction is a process of hiding the implementation details and showing only functionality to the user. \
 class declared with abstract keyword \
