@@ -10,4 +10,4 @@ If we want to monitor TS change Realtime then: tsc fileName.ts --watch \
 **Boolean =:** let isActive: boolean = true; \
 **Any =**: let bjit: any = "Software Company"; \
 **Array:** let studentList: any[] = ["zulkar", 463]; \
-**Unit Type =:** llet studentList: (string | number)[] = ["zulkar", 463]; \
+**Unit Type =:** let studentList: (string | number)[] = ["zulkar", 463]; 
