@@ -10,5 +10,4 @@ Number =:let studetnId: number = 2314; \
 Boolean =: let isActive: boolean = true; \
 Any =: let bjit: any = "Software Company"; \
 Array: let studentList: any[] = ["zulkar", 463]; \
-
 Unit Type =: llet studentList: (string | number)[] = ["zulkar", 463]; \
